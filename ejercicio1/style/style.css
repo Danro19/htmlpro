@@ -1,0 +1,140 @@
+
+
+.cuadrado p{
+    font-size: 35px;
+    text-shadow: yellow 2px 2px; 
+}
+
+.cuadrado{
+    border: 4px solid  red;
+    height: 908px;
+}
+
+.cuadr1{
+    border: 4px solid  green; 
+    margin: 10px;
+    position: relative;
+    width: 50%;
+   
+
+}
+.cuadr2{
+    border: 4px solid blue;
+    position: relative;
+    margin-top:10px ;
+    margin-left: 50px;
+    width: 50%;
+
+}
+.cuadr3 {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 100px;
+    border: 4px solid rgb(255, 196, 0);
+    width: 50%;
+    
+}
+
+.puntos{
+    margin-left: 50%;
+}
+
+hr{
+    border: 2px solid black;
+}
+
+.primerMenu{
+    border: 3px solid rgba(184, 138, 228, 0.692);
+    background-color: rgba(184, 138, 228, 0.692);
+    
+}
+.primerMenu ul li{
+    display: inline;
+    font-size: 28px;
+    list-style-type: none;
+}
+
+.primerMenu li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.primerMenu li:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+.cuerpodos{
+    border: 2px solid black;
+    background-color: blanchedalmond;
+}
+.encabezado {
+    text-align: center;
+    background:url("../img/libros.jpeg");
+    position: relative;
+    top: -20px;
+}
+.encabezado h1 {
+color: white;
+}
+.segundoMenu ul li{
+    display: inline;
+    font-size: 28px;
+    list-style-type: none;
+}
+
+.segundoMenu li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.segundoMenu li:hover{
+    cursor: pointer;
+    background-color: burlywood;
+}
+
+.imagen img{
+    width: 240px;
+    height: 240px;
+    position: relative;
+    left: 46%;
+    top: -30px;
+}
+
+.pie {
+    background-color: chocolate;
+    height: 50px;
+    text-align: center;
+    font-size: 10px;
+}
+.pie p {
+    position: relative; 
+    color: white;
+    top: 25px;
+    
+}
+
+.cuerpo{
+    text-align: justify;
+    width: 900px;
+    position: relative;
+    left: 30%;
+}
+.Menu{
+    border: 2px solid black;
+    width: 400px;
+    position: absolute;
+    top: 1260px;
+    height: 1194px;
+}
+
+.Menu li a{
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+Menu ul li{
+    display: inline;
+    font-size: 60px;
+    list-style-type: none;
+}
